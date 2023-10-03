@@ -5,7 +5,6 @@ import styles from './page.module.css';
 import { Poppins } from 'next/font/google';
 import Navbar from '@/app/components/Navbar';
 import Footer from '@/app/components/Footer';
-import Heading from '@/app/components/Heading';
 
 const poppins = Poppins({
   weight: ['400', '500', '600', '700', '800'],
