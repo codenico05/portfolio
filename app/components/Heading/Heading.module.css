@@ -1,0 +1,72 @@
+.heading {
+  width: 100vw;
+  text-align: center;
+  margin: 140px 0 30px 0;
+  color: var(--white);
+  position: relative;
+}
+
+.title {
+  background: var(--gradient-light-blue);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  font-size: 3rem;
+  text-transform: uppercase;
+  user-select: none;
+
+  @media screen and (max-width: 1080px) {
+    font-size: 2.5rem;
+  }
+}
+
+.subtitle {
+  font-weight: 400;
+  user-select: none;
+
+  @media screen and (max-width: 1080px) {
+    font-size: 1rem;
+  }
+}
+
+.react-icon {
+  position: absolute;
+  top: -120px;
+  left: 40%;
+
+  @media screen and (max-width: 1440px) {
+  }
+}
+.javascript-icon {
+  position: absolute;
+  bottom: -120px;
+  right: 20%;
+
+  @media screen and (max-width: 1440px) {
+    right: 15%;
+    bottom: -100px;
+  }
+
+  @media screen and (max-width: 1080px) {
+    right: 10%;
+  }
+}
+
+.python-icon {
+  position: absolute;
+  bottom: 20px;
+  left: 20%;
+
+  @media screen and (max-width: 1440px) {
+    left: 15%;
+  }
+
+  @media screen and (max-width: 1280px) {
+    left: 10%;
+  }
+
+  @media screen and (max-width: 1080px) {
+    left: 7%;
+  }
+}

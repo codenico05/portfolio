@@ -1,0 +1,18 @@
+.input {
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  width: 320px;
+  height: 58px;
+  font-size: 1.3rem;
+  padding: 0 2rem;
+
+  @media screen and (max-width: 1080px) {
+    font-size: 1rem;
+    padding: 0 1.5rem;
+    height: 50px;
+  }
+}
+.input:placeholder-shown {
+  color: var(--grey);
+}

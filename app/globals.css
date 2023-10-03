@@ -1,8 +1,17 @@
-
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+:root {
+  --white-one: #f4f7ff;
+  --white: #ffffff;
+  --gradient-blue: linear-gradient(180deg, #181030 0%, #1f1060 100%);
+  --gradient-light-blue: linear-gradient(95deg, #4289ff 32.67%, #01fdd6 83.6%);
+  --grey: #c0c0c0;
+  --purple: #6e1fea;
+  --purple-active: #6215d9;
+  --purple-two: #7b32ec;
 }
 
 html,
@@ -15,5 +24,3 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
-

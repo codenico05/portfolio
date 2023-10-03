@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 160px;
+  width: 100vw;
+  height: 80px;
+  color: var(--white);
+
+  @media screen and (max-width: 1280px) {
+    padding: 40px 90px;
+  }
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+}
+
+.logo {
+  cursor: pointer;
+
+  @media screen and (max-width: 1080px) {
+    font-size: 1.125rem;
+  }
+}
+
+.link {
+  cursor: pointer;
+  @media screen and (max-width: 1080px) {
+    font-size: 0.875rem;
+  }
+}
+
+.link:hover {
+  color: antiquewhite;
+}
